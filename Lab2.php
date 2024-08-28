@@ -98,7 +98,7 @@
 
     //Bài 15: Viết một chương trình PHP để thêm một chuỗi vào đầu hoặc cuối của một chuỗi sử dụng hàm str_pad().
     echo "Bài 15: Thêm '!' vào cuối của chuỗi 'Hello TMU' là: ";
-    $str= "Xin chào TMU";
+    $str= "Hello TMU";
     echo str_pad($str, 20, "!", STR_PAD_BOTH);
     echo "<br>";
 
